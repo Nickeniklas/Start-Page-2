@@ -103,14 +103,17 @@ body {
     margin-bottom: 1rem;
     gap: 1rem;
 }
-
+#dateWidget {
+    margin-top: 1rem;
+}
 #showTime {
     font-size: 44px;
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 #showWeek, #showDate {
-    font-size: 1.5rem;
+    font-size: 3rem;
+    margin: 0;
 }
 
 #newsWidget {
