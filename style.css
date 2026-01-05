@@ -110,6 +110,9 @@ body {
     font-size: 44px;
     margin: 0;
     font-size: 4rem;
+    width: 100%;
+    /* Optional: ensures numbers are aligned on the same baseline */
+    font-family: monospace;
 }
 #showWeek, #showDate {
     font-size: 3rem;
