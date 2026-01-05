@@ -9,13 +9,12 @@ setInterval(clock, 1000);
 
 // week
 let now = new Date();
-let startDate = new Date(now.getFullYear(), 0, 1); 
-let daysInYear = Math.floor((now - startDate) /
-    (24 * 60 * 60 * 1000));
+let startDate = new Date(now.getFullYear(), 0, 1);  
+let daysInYear = Math.floor((now - startDate) / (24 * 60 * 60 * 1000)) + 1; // +1 to account Today
 
 let week = Math.ceil(daysInYear / 7);
 
-document.querySelector('#showWeek').innerHTML = "Week-" + week; // Hjälp från geeksforgeeks.org https://www.geeksforgeeks.org/calculate-current-week-number-in-javascript/
+document.querySelector('#showWeek').innerHTML = "Week-" + week;
 
 // date
 let day = now.getDate();
