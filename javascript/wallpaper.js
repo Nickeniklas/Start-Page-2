@@ -25,7 +25,7 @@ function randomWallpaper() {
 	const selectedImageUrl = "url(" + selectedImage + ")";
 
     document.querySelector('body').style.backgroundImage = selectedImageUrl;
-    console.log("Image URL: " + selectedImageUrl);
+    //console.log("Image URL: " + selectedImageUrl); DEBUGGING
 }
 
 randomWallpaper();
